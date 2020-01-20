@@ -24,10 +24,9 @@ namespace EsercizioNatale3
         {
             InitializeComponent();
         }
-
         private void BtnON_OFF_Click(object sender, RoutedEventArgs e)
         {
-            if(BtnCalcola.Content.ToString() = "ON") 
+            if (BtnCalcola.Content.ToString() == "ON")
             {
                 TxtNum1.IsEnabled = false;
                 TxtNum2.IsEnabled = false;
